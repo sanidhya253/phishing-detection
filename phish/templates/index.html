@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Phishing Detector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            text-align: center;
+            padding: 100px;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>🔍 Phishing Detection System</h2>
+        <form action="/analyze" method="post">
+            <label for="service">Select Login Type:</label>
+            <select name="service" id="service" required>
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+            </select>
+
+            <br><br>
+            <label for="url">Enter URL:</label>
+            <input type="text" name="url" id="url" required>
+
+            <br><br>
+            <button type="submit">Analyze</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

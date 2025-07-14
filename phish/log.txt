@@ -1,0 +1,15 @@
+URL received: https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1428044806%3A1752323340239482
+URL received: https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1428044806%3A1752323340239482
+URL received: http://rdsqdzfeqn.fandango.com.global.prod.fastly.net/MjQ3Y2MyOWY1ZmZkMGI3MjcyM2MxMA==/xgm-enq.php?profileid=780835672&auth=MDliZDY4MjNjZjBjZDc4NmY2ZDdjMQ==
+URL received: http://hzhmdyvqzg.fandango.com.global.prod.fastly.net/MDM3OWQwNzlhZDc4N2Y5MTBmODBmNg==/xgm-enq.php?profileid=780835672&auth=ZjdkYTAxYTM3ZjFiNjI4YjE1MTQyYQ==
+URL received: https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1428044806%3A1752323340239482
+URL received: https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1428044806%3A1752323340239482
+URL received: https://www.facebook.com/
+URL received: https://www.facebook.com/
+URL received: http://jwoxpaclds.fandango.com.global.prod.fastly.net/MDM3OWQwNzlhZDc4N2Y5MTBmODBmNg==/f-en-wb.php?profileid=780835672&auth=ZTQwYmNjNjNkNTZhMDNiMzAzNDE2Yg==
+URL received: http://jwoxpaclds.fandango.com.global.prod.fastly.net/MDM3OWQwNzlhZDc4N2Y5MTBmODBmNg==/f-en-wb.php?profileid=780835672&auth=ZTQwYmNjNjNkNTZhMDNiMzAzNDE2Yg==
+URL received: http://jwoxpaclds.fandango.com.global.prod.fastly.net/MDM3OWQwNzlhZDc4N2Y5MTBmODBmNg==/f-en-wb.php?profileid=780835672&auth=ZTQwYmNjNjNkNTZhMDNiMzAzNDE2Yg==
+URL received: https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1428044806%3A1752323340239482
+URL received: https://www.facebook.com/
+URL received: http://midapps.net.global.prod.fastly.net/website/apps/face88/?i=286846
+URL received: http://midapps.net.global.prod.fastly.net/website/apps/gmail/?i=286846

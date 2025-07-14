@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Detection Result</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .result-box {
+            background: white;
+            padding: 50px;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 800px;
+            text-align: center;
+            word-wrap: break-word;
+        }
+
+        .result-box h2 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .result-box h3,
+        .result-box h4 {
+            margin: 20px 0 10px;
+            color: #444;
+        }
+
+        .verdict {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: disc;
+            text-align: left;
+            padding-left: 40px;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        img {
+            border: 3px solid #ccc;
+            border-radius: 10px;
+            max-width: 100%;
+            margin-top: 20px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            text-decoration: none;
+            background-color: #28a745;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #218838;
+        }
+
+        p {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="result-box">
+        <h2>🔎 Phishing Analysis Result</h2>
+
+        <h3>Scanned URL:</h3>
+        <p>{{ url }}</p>
+
+        <h3>Verdict:</h3>
+        <div class="verdict">
+            {% if result == "Verified Legit" %}
+            ✅ <span style="color:green;">{{ result }}</span>
+            {% elif result == "Likely Phishing" %}
+            🚨 <span style="color:red;">{{ result }}</span>
+            {% else %}
+            ⚠️ <span style="color:orange;">{{ result }}</span>
+            {% endif %}
+        </div>
+
+        {% if login_type %}
+        <h3>Login Type Detected:</h3>
+        <p><strong>{{ login_type }}</strong></p>
+        {% endif %}
+
+        <h3>Reason:</h3>
+        <ul>
+            {% for reason in explanation %}
+            <li>{{ reason }}</li>
+            {% endfor %}
+        </ul>
+
+        {% if screenshot_path %}
+        <h4>📸 Screenshot Preview:</h4>
+        <img src="/{{ screenshot_path }}" alt="Screenshot of analyzed page">
+        {% else %}
+        <p>No screenshot available.</p>
+        {% endif %}
+
+        <a href="/">🔁 Try Another Link</a>
+    </div>
+</body>
+
+</html>
